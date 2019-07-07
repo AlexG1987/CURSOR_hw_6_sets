@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        TreeSet<Integer> set = new TreeSet<>(new OwnComparator());
+        Set<Integer> set = new TreeSet<>(new OwnComparator());
         set.addAll(Arrays.asList(1, 7, 6, 4, 3, 8, 2, 9));
         System.out.println(set);
     }

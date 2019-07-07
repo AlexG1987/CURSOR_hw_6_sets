@@ -8,8 +8,7 @@ public class OwnComparator implements Comparator<Integer> {
         if (o1 % 2 == 0) {
             if (o2 % 2 == 0) {
                 return o1.compareTo(o2);
-            }
-                 else {
+            } else {
                 return -1;
             }
         } else {
@@ -20,5 +19,4 @@ public class OwnComparator implements Comparator<Integer> {
             }
         }
     }
-
 }
